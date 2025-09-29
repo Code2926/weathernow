@@ -1,0 +1,12 @@
+{
+  "name": "weathernow",
+  "version": "1.0.0",
+  "description": "Beautiful weather forecast app with offline support",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server ./"
+  },
+  "author": "CodeNova",
+  "license": "ISC",
+  "type": "module"
+}
