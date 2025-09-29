@@ -363,50 +363,53 @@ async function addWeatherMarker(lat, lon, zoom = 8) {
   } catch(err) { console.error("Weather marker error:", err); }
 }
 
-/* ------------------------------ THEME TOGGLE ICON ------------------------------ */
+/* ------------------------------ THEME TOGGLE ------------------------------ */
 const themeBtn = document.getElementById('themeBtn');
 const themeIcon = document.getElementById('themeIcon');
 const themeCSS = document.getElementById('themeCSS');
+const favicon = document.getElementById('favicon');
 
-let isDark = true; // default dark (design1)
-applyTheme(isDark);
+let isDark = true; // default dark theme
 
 function applyTheme(dark) {
-  const favicon = document.getElementById("favicon");
+    const timestamp = new Date().getTime(); // prevent favicon caching
 
-  if (dark) {
-    // Dark theme (design1)
-    themeCSS.href = 'design1/style.css';
-    window.ICONS = design1Icons;
+    if (dark) {
+        // Dark theme (design1)
+        themeCSS.href = 'design1/style.css';
+        window.ICONS = design1Icons;
 
-    // Favicon = moon, Toggle = sun
-    if (favicon) favicon.href = "icons/moon.png";
-    themeIcon.src = "icons/sun.png";
+        // Favicon = moon, toggle icon = sun
+        if (favicon) favicon.href = `icons/moon.png?${timestamp}`;
+        themeIcon.src = 'icons/sun.png';
 
-  } else {
-    // Bright theme (design2)
-    themeCSS.href = 'design2/style.css';
-    window.ICONS = design2Icons;
+    } else {
+        // Light theme (design2)
+        themeCSS.href = 'design2/style.css';
+        window.ICONS = design2Icons;
 
-    // Favicon = sun, Toggle = moon
-    if (favicon) favicon.href = "icons/sun.png";
-    themeIcon.src = "icons/moon.png";
-  }
+        // Favicon = sun, toggle icon = moon
+        if (favicon) favicon.href = `icons/sun.png?${timestamp}`;
+        themeIcon.src = 'icons/moon.png';
+    }
 
-  // Reload weather with new icons
-  const city = document.getElementById('cityInput')?.value || 'London';
-  getWeather(city);
+    // Reload weather with current city to update icons
+    const city = document.getElementById('cityInput')?.value || 'London';
+    getWeather(city);
 }
 
-// apply default
-applyTheme(isDark);
+// Apply default theme after DOM loads
+document.addEventListener('DOMContentLoaded', () => {
+    applyTheme(isDark);
+});
 
-// click event
+// Toggle button click event
 themeBtn.addEventListener('click', () => {
-  isDark = !isDark;
-  applyTheme(isDark);
+    isDark = !isDark;
+    applyTheme(isDark);
 });
 
 
 /* ------------------------------ DEFAULT ------------------------------ */
 getWeather('London');
+
