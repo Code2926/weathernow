@@ -44,16 +44,16 @@ The **web app** was built using HTML, CSS, and JavaScript, while the **Android a
 
 <p align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
 
-  <img src="https://github.com/user-attachments/assets/4a490494-05d1-4ca4-bc2f-97bbe397bb91" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/b3cb199d-15da-4a9b-914f-f57f1526112a" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/c85e98eb-4434-4cd1-bbac-e10fc4791569" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/a1913ba7-f6ea-46f7-82be-2d8a02ffd179" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/c9cf9894-5625-49cc-9405-02c8bd99c78a" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/55ae108b-c27d-4bce-bc96-bdc3c01bb2be" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
+<img width="1080" height="1920" alt="4" src="https://github.com/user-attachments/assets/09922c00-63ea-4602-8c46-3e750e6e8d5d" />
+<img width="1080" height="1920" alt="3" src="https://github.com/user-attachments/assets/b2101050-5673-40e9-a514-0b568e290a94" />
+<img width="1080" height="1920" alt="2" src="https://github.com/user-attachments/assets/6a565ded-1b17-44ed-8e63-9692711652fa" />
+<img width="1080" height="1920" alt="1" src="https://github.com/user-attachments/assets/9c4e2028-b8b1-4bd9-ab90-e9def937c034" />
+<img width="1080" height="1920" alt="5" src="https://github.com/user-attachments/assets/4de0a85e-0558-4226-9c1d-085a64e5ed2f" />
 
 </p>
 
 ---
+
 
 ## ⚙️ How to Use
 
