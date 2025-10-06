@@ -44,12 +44,12 @@ The **web app** was built using HTML, CSS, and JavaScript, while the **Android a
 
 <p align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
 
-  <img src="https://github.com/user-attachments/assets/4a490494-05d1-4ca4-bc2f-97bbe397bb91" width="120" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/b3cb199d-15da-4a9b-914f-f57f1526112a" width="120" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/c85e98eb-4434-4cd1-bbac-e10fc4791569" width="120" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/a1913ba7-f6ea-46f7-82be-2d8a02ffd179" width="120" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/c9cf9894-5625-49cc-9405-02c8bd99c78a" width="120" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
-  <img src="https://github.com/user-attachments/assets/55ae108b-c27d-4bce-bc96-bdc3c01bb2be" width="120" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/4a490494-05d1-4ca4-bc2f-97bbe397bb91" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/b3cb199d-15da-4a9b-914f-f57f1526112a" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/c85e98eb-4434-4cd1-bbac-e10fc4791569" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/a1913ba7-f6ea-46f7-82be-2d8a02ffd179" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/c9cf9894-5625-49cc-9405-02c8bd99c78a" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/55ae108b-c27d-4bce-bc96-bdc3c01bb2be" width="140" height="180" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25); object-fit: cover;" />
 
 </p>
 
