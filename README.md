@@ -9,7 +9,7 @@ It provides real-time weather updates, forecasts, and location-based data — av
 
 - 🌐 **Web Version:** [WeatherNow Web](https://code2926.github.io/weathernow/)  
 - 📱 **Android Version (APK):** [Download from Google Drive](https://drive.google.com/file/d/15rknttaWdqaa0RuGELhzP15vGP_K6Pzc/view?usp=sharing)
-- 🔒 **Privacy Policy:** [View Here]([privacy-policy.html](https://code2926.github.io/weathernow/privacy-policy.html))
+- 🔒 **Privacy Policy:** [View Here](https://code2926.github.io/weathernow/privacy-policy.html)
 
 ---
 
