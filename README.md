@@ -53,42 +53,6 @@ The **web app** was built using HTML, CSS, and JavaScript, while the **Android a
   </div>
 </div>
 
-<style>
-.slider {
-  width: 260px;             /* card width + spacing */
-  height: 520px;            /* fixed height */
-  overflow: hidden;
-  margin: 20px auto;
-  border-radius: 15px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
-  position: relative;
-}
-
-.slides {
-  display: flex;
-  width: max-content;
-  animation: slide 18s infinite linear;
-}
-
-.slides img {
-  width: 250px;
-  height: 500px;
-  object-fit: cover;
-  margin: 5px;
-  border-radius: 15px;
-}
-
-@keyframes slide {
-  0% { transform: translateX(0); }
-  16.66% { transform: translateX(-260px); }
-  33.33% { transform: translateX(-520px); }
-  50% { transform: translateX(-780px); }
-  66.66% { transform: translateX(-1040px); }
-  83.33% { transform: translateX(-1300px); }
-  100% { transform: translateX(0); }
-}
-</style>
-
 ---
 
 ## ⚙️ How to Use
