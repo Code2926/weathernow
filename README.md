@@ -44,11 +44,11 @@ The **web app** was built using HTML, CSS, and JavaScript, while the **Android a
 
 <p align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
 
-<img width="1080" height="1920" alt="4" src="https://github.com/user-attachments/assets/09922c00-63ea-4602-8c46-3e750e6e8d5d" />
-<img width="1080" height="1920" alt="3" src="https://github.com/user-attachments/assets/b2101050-5673-40e9-a514-0b568e290a94" />
-<img width="1080" height="1920" alt="2" src="https://github.com/user-attachments/assets/6a565ded-1b17-44ed-8e63-9692711652fa" />
-<img width="1080" height="1920" alt="1" src="https://github.com/user-attachments/assets/9c4e2028-b8b1-4bd9-ab90-e9def937c034" />
-<img width="1080" height="1920" alt="5" src="https://github.com/user-attachments/assets/4de0a85e-0558-4226-9c1d-085a64e5ed2f" />
+  <img src="https://github.com/user-attachments/assets/09922c00-63ea-4602-8c46-3e750e6e8d5d" alt="4" style="width: 300px; height: 500px; object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/b2101050-5673-40e9-a514-0b568e290a94" alt="3" style="width: 300px; height: 500px; object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/6a565ded-1b17-44ed-8e63-9692711652fa" alt="2" style="width: 300px; height: 500px; object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/9c4e2028-b8b1-4bd9-ab90-e9def937c034" alt="1" style="width: 300px; height: 500px; object-fit: cover;" />
+  <img src="https://github.com/user-attachments/assets/4de0a85e-0558-4226-9c1d-085a64e5ed2f" alt="5" style="width: 300px; height: 500px; object-fit: cover;" />
 
 </p>
 
