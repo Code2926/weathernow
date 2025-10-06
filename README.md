@@ -42,31 +42,52 @@ The **web app** was built using HTML, CSS, and JavaScript, while the **Android a
 
 ## 📱 Android App Screenshots
 
-<p align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
-  <span style="display: inline-block; width: 250px; height: 500px; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-    <img src="https://github.com/user-attachments/assets/c85e98eb-4434-4cd1-bbac-e10fc4791569" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </span>
-  
-  <span style="display: inline-block; width: 250px; height: 500px; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-    <img src="https://github.com/user-attachments/assets/4a490494-05d1-4ca4-bc2f-97bbe397bb91" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </span>
-  
-  <span style="display: inline-block; width: 250px; height: 500px; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-    <img src="https://github.com/user-attachments/assets/a1913ba7-f6ea-46f7-82be-2d8a02ffd179" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </span>
+<div class="slider">
+  <div class="slides">
+    <img src="https://github.com/user-attachments/assets/c85e98eb-4434-4cd1-bbac-e10fc4791569" alt="Screenshot 1">
+    <img src="https://github.com/user-attachments/assets/4a490494-05d1-4ca4-bc2f-97bbe397bb91" alt="Screenshot 2">
+    <img src="https://github.com/user-attachments/assets/a1913ba7-f6ea-46f7-82be-2d8a02ffd179" alt="Screenshot 3">
+    <img src="https://github.com/user-attachments/assets/b3cb199d-15da-4a9b-914f-f57f1526112a" alt="Screenshot 4">
+    <img src="https://github.com/user-attachments/assets/55ae108b-c27d-4bce-bc96-bdc3c01bb2be" alt="Screenshot 5">
+    <img src="https://github.com/user-attachments/assets/c9cf9894-5625-49cc-9405-02c8bd99c78a" alt="Screenshot 6">
+  </div>
+</div>
 
-  <span style="display: inline-block; width: 250px; height: 500px; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-    <img src="https://github.com/user-attachments/assets/b3cb199d-15da-4a9b-914f-f57f1526112a" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </span>
-  
-  <span style="display: inline-block; width: 250px; height: 500px; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-    <img src="https://github.com/user-attachments/assets/55ae108b-c27d-4bce-bc96-bdc3c01bb2be" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </span>
-  
-  <span style="display: inline-block; width: 250px; height: 500px; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-    <img src="https://github.com/user-attachments/assets/c9cf9894-5625-49cc-9405-02c8bd99c78a" style="width: 100%; height: 100%; object-fit: cover;"/>
-  </span>
-</p>
+<style>
+.slider {
+  width: 260px;             /* card width + spacing */
+  height: 520px;            /* fixed height */
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: max-content;
+  animation: slide 18s infinite linear;
+}
+
+.slides img {
+  width: 250px;
+  height: 500px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  16.66% { transform: translateX(-260px); }
+  33.33% { transform: translateX(-520px); }
+  50% { transform: translateX(-780px); }
+  66.66% { transform: translateX(-1040px); }
+  83.33% { transform: translateX(-1300px); }
+  100% { transform: translateX(0); }
+}
+</style>
 
 ---
 
